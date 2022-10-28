@@ -1,0 +1,99 @@
+body{
+    background: url(uk.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#name {
+    color: blue;
+}
+.fact{
+    margin: 40px;
+    color: darkgoldenrod;
+}
+.text{
+    text-align: center;
+    margin: -600px;
+    color: darkgoldenrod;
+}
+nav {
+    text-align: center;
+    margin: 25px auto 0;
+    position: relative;
+    width: 730px;
+    height: 50px;
+  
+
+}
+nav a {
+    line-height: 50px;
+    height: 100%;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+      color: #000
+}
+nav .animation{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    transition: all .5s ease 0s;
+    border-radius: 25px;
+
+}
+a:nth-child(1) {
+    width: 90px;
+}
+a:nth-child(2) {
+    width: 100px;
+}
+a:nth-child(3) {
+    width: 130px;
+}
+a:nth-child(4) {
+    width: 130px;
+}
+a:nth-child(5) {
+    width: 120px;
+}
+a:nth-child(6) {
+    width: 100px;
+}
+nav .start-home, a:nth-child(1):hover ~ .animation {
+    width: 120px;
+    left: 5px;
+    background-color: lightskyblue;
+}
+nav .start-home, a:nth-child(2):hover ~ .animation {
+    width: 120px;
+    left: 103px;
+    background-color: #1abc9c;
+}
+nav .start-home, a:nth-child(3):hover ~ .animation {
+    width: 120px;
+    left: 225px;
+    background-color: #1abc9c;
+}
+nav .start-home, a:nth-child(4):hover ~ .animation {
+    width: 120px;
+    left: 357px;
+    background-color: #1abc9c;
+}
+nav .start-home, a:nth-child(5):hover ~ .animation {
+    width: 120px;
+    left: 485px;
+    background-color: #1abc9c;
+}
+nav .start-home, a:nth-child(6):hover ~ .animation {
+    width: 120px;
+    left: 600px;
+    background-color: #1abc9c;
+}
+
+
+
